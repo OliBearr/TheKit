@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="product.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Favicon/favicon-32x32.png" type="image/png">
+    <title>Products - The Kit</title>
+</head>
+<body>
+<div class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+        <div class="container">
+            <img src="Favicon\android-chrome-512x512.png" class="Logo" alt="The Kit Logo"> 
+            <a class="navbar-brand fw-bold" href="index.html" style="font-style: italic;">TheKit</a> 
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3 active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <li><a class="dropdown-item" href="product.html#lenses">Lenses</a></li> 
+                             <li><a class="dropdown-item" href="product.html#body">Body</a></li> 
+                             <li><a class="dropdown-item" href="product.html#Accessories">Accessories</a></li> 
+                             <li><hr class="dropdown-divider"></li>
+                             <li><a class="dropdown-item" href="product.html#sale">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link px-3" href="aboutUs.html">About Us</a></li>
+                     <li class="nav-item"><a class="nav-link px-3" href="contactUs.html">Contact Us</a></li>
+                     <li class="nav-item-1">
+                        <a class="nav-link px-4" href="#" data-bs-toggle="modal" data-bs-target="#loginSignupModal">Sign up / Login</a>
+                      </li>
+                 </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container my-5" style="padding-top: 80px; padding-bottom: 80px;"> 
+    
+    <section id="body" class="mb-5">
+        <h2 class="text-center mb-4">Camera Bodies</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"> 
+            <div class="col">
+                <div class="card h-100"> 
+                    <img src="Images/Sony Alpha 7R.png" class="card-img-top" alt="Sony Alpha 7R III"> 
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sony Alpha 7R III</h5>
+                        <h6 class="card-price">$2,499.00</h6>
+                        <p class="card-text description flex-grow-1">High-resolution full-frame mirrorless camera with fast AF.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a> 
+                    </div>
+                </div>
+            </div>
+             <div class="col">
+                <div class="card h-100">
+                    <img src="Images/Canon EOS R6.png" class="card-img-top" alt="Canon EOS R6">
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Canon EOS R6</h5>
+                        <h6 class="card-price">$2,299.00</h6>
+                        <p class="card-text description flex-grow-1">Versatile full-frame mirrorless camera, great for stills and video.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+              <div class="col">
+                <div class="card h-100">
+                    <img src="Images/Nikon Z6 II.png" class="card-img-top" alt="Nikon Z6 II">  
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Nikon Z6 II</h5>
+                        <h6 class="card-price">$1,999.00</h6>
+                        <p class="card-text description flex-grow-1">Robust mirrorless camera with excellent low-light performance.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section id="lenses" class="mb-5">
+         <h2 class="text-center mb-4">Lenses</h2>
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+             <div class="col">
+                 <div class="card h-100">
+                    <img src="Images/Sigma 35mm.png" class="card-img-top" alt="Example Lens 1"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sigma 35mm f/1.4 ART</h5>
+                        <h6 class="card-price">$899.00</h6>
+                        <p class="card-text description flex-grow-1">Sharp and versatile prime lens for various mounts.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                     </div>
+                 </div>
+            </div>
+            <div class="col">
+                 <div class="card h-100">
+                    <img src="Images/Canon 50mm.png" class="card-img-top" alt="Example Lens 2"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Canon RF 50mm f/1.8 STM</h5>
+                        <h6 class="card-price">$199.00</h6>
+                        <p class="card-text description flex-grow-1">Affordable and compact prime lens, great for portraits.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                     </div>
+                 </div>
+            </div>
+            <div class="col">
+                 <div class="card h-100">
+                    <img src="Images/Sony 24-70mm.png" class="card-img-top" alt="Example Lens 3"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sony FE 24-70mm f/2.8 GM</h5>
+                        <h6 class="card-price">$2,099.00</h6>
+                        <p class="card-text description flex-grow-1">Pro-level standard zoom lens with excellent image quality.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                     </div>
+                 </div>
+            </div>
+         </div>
+     </section>
+
+    <section id="Accessories" class="mb-5">
+         <h2 class="text-center mb-4">Accessories</h2>
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                 <div class="card h-100">
+                    <img src="Images/Manfrotto Compact Tripod.png" class="card-img-top" alt="Example Tripod"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Manfrotto Compact Tripod</h5>
+                        <h6 class="card-price">$79.00</h6>
+                        <p class="card-text description flex-grow-1">Lightweight and sturdy tripod, perfect for travel.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                     </div>
+                 </div>
+            </div>
+            <div class="col">
+                 <div class="card h-100">
+                    <img src="Images/Backpack.png" class="card-img-top" alt="Example Camera Bag"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Peak Design Everyday Backpack</h5>
+                        <h6 class="card-price">$259.00</h6>
+                        <p class="card-text description flex-grow-1">Versatile and durable backpack for carrying camera gear.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                     </div>
+                 </div>
+            </div>
+            <div class="col">
+                 <div class="card h-100">
+                    <img src="Images/SanDisk.png" class="card-img-top" alt="Example SD Card"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">SanDisk Extreme PRO 128GB SD Card</h5>
+                        <h6 class="card-price">$39.00</h6>
+                        <p class="card-text description flex-grow-1">Fast and reliable SD card for high-res photos and 4K video.</p>
+                        <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                     </div>
+                 </div>
+            </div>
+         </div>
+     </section>
+
+     <section id="sale" class="mb-5">
+         <h2 class="text-center mb-4">Sale Items</h2>
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                 <div class="card h-100 border-danger"> 
+                    <img src="Images\Sony a6000.png" class="card-img-top" alt="Sale Item 1"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Older Model Body (Discounted)</h5>
+                        <h6 class="card-price"><del class="text-muted">$1599.00</del> <span class="text-danger">$1199.00</span></h6> 
+                        <p class="card-text description flex-grow-1">Great value full-frame camera, previous generation model.</p>
+                        <a href="#" class="btn btn-danger mt-auto">View Details</a> 
+                     </div>
+                 </div>
+            </div>
+            <div class="col">
+                 <div class="card h-100 border-danger">
+                    <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/Primary_image-2?$categorypdpnav$&fmt=png-alpha" class="card-img-top" alt="Images\Gmaster f1.2 50mm.png"> 
+                     <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Refurbished 50mm Lens</h5>
+                         <h6 class="card-price"><del class="text-muted">$199.00</del> <span class="text-danger">$149.00</span></h6>
+                        <p class="card-text description flex-grow-1">Certified refurbished prime lens with standard warranty.</p>
+                        <a href="#" class="btn btn-danger mt-auto">View Details</a>
+                     </div>
+                 </div>
+            </div>
+         </div>
+     </section>
+
+</div> <footer class="footer text-center"> <p>All rights reserved <br> @TheKit 2025 </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+
+<div class="modal fade" id="loginSignupModal" tabindex="-1" aria-labelledby="loginSignupModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-3 shadow">
+        <div class="modal-header p-4 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2" id="loginSignupModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body p-4 pt-0">
+          <form class=""> <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" required>
+              <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Login</button>
+            <small class="text-body-secondary">By clicking Login, you agree to the terms of use.</small>
+            <hr class="my-4">
+            <h2 class="fs-5 fw-bold mb-3">Or sign up</h2>
+            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="button"> 
+              Sign up with Email
+            </button>
+             <p class="mt-3 text-center">
+                <a href="#" class="text-muted"><small>Forgot password?</small></a>
+             </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

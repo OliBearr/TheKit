@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="contactUs.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Favicon/favicon-32x32.png" type="image/png">
+    <title>Contact Us - The Kit</title>
+</head>
+<body>
+
+<div class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+        <div class="container">
+            <img src="Favicon/android-chrome-512x512.png" class="Logo" alt="The Kit Logo">
+            <a class="navbar-brand fw-bold" href="index.html" style="font-style: italic;">TheKit</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <li><a class="dropdown-item" href="product.html#lenses">Lenses</a></li> 
+                             <li><a class="dropdown-item" href="product.html#body">Body</a></li> 
+                             <li><a class="dropdown-item" href="product.html#Accessories">Accessories</a></li> 
+                             <li><hr class="dropdown-divider"></li>
+                             <li><a class="dropdown-item" href="product.html#sale">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link px-3" href="aboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 active" href="contactUs.html">Contact Us</a></li> 
+                    <li class="nav-item-1">
+                        <a class="nav-link px-4" href="#" data-bs-toggle="modal" data-bs-target="#loginSignupModal">Sign up / Login</a>
+                      </li>
+                 </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container mt-5 pt-5" style="padding-bottom: 80px;"> 
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1 class="text-center mb-4">Contact Us</h1>
+            <p class="text-center lead mb-4">We'd love to hear from you! Reach out using the details below or fill out the contact form.</p>
+
+            <div class="text-center mb-5">
+                 <h4>Our Information</h4>
+                 <p><strong><i class="bi bi-geo-alt-fill"></i> Address:</strong> Barangay Saksakan, Nakailag Street, Kanal City, Republic of the Solar System, 0000</p>
+                 <p><strong><i class="bi bi-telephone-fill"></i> Phone:</strong> <a href="tel:[YourPhoneNumber]"> 0949 *** ****</a></p>
+                 <p><strong><i class="bi bi-envelope-fill"></i> Email:</strong> <a href="mailto:[YourEmailAddress]">thekit@gmail.com</a></p>
+                 <p><strong><i class="bi bi-clock-fill"></i> Business Hours:</strong> Monday to Saturday (8AM - 5PM)</p>
+             </div>
+
+            <hr class="my-4">
+
+            <h4 class="text-center mb-3">Send Us a Message</h4>
+            <form action="[Your Form Handler URL or Script]" method="POST"> <div class="mb-3">
+                    <label for="contactName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="contactName" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="contactEmail" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="contactEmail" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="contactSubject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="contactSubject" name="subject">
+                </div>
+                <div class="mb-3">
+                    <label for="contactMessage" class="form-label">Message</label>
+                    <textarea class="form-control" id="contactMessage" name="message" rows="5" required></textarea>
+                </div>
+                <div class="text-center">
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer"> <p>All rights reserved <br> @TheKit 2025 </p>
+</footer>
+
+<div class="modal fade" id="loginSignupModal" tabindex="-1" aria-labelledby="loginSignupModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-3 shadow">
+        <div class="modal-header p-4 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2" id="loginSignupModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body p-4 pt-0">
+          <form class=""> <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" required>
+              <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Login</button>
+            <small class="text-body-secondary">By clicking Login, you agree to the terms of use.</small>
+            <hr class="my-4">
+            <h2 class="fs-5 fw-bold mb-3">Or sign up</h2>
+            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="button"> 
+              Sign up with Email
+            </button>
+             <p class="mt-3 text-center">
+                <a href="#" class="text-muted"><small>Forgot password?</small></a>
+             </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
